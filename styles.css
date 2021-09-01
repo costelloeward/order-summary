@@ -1,0 +1,19 @@
+
+
+/*
+### Font
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900  */
+
+:root{
+  --dark: hsl(223, 47%, 23%);
+  --blue-grey: hsl(224, 23%, 55%);
+  --light-blue: hsl(225, 100%, 94%);
+  --mid-blue: hsl(245, 75%, 52%);
+  --pale: hsl(225, 100%, 98%);
+}
+
+body{
+  background-color: var(--dark);
+}
