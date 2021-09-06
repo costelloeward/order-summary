@@ -1,28 +1,61 @@
-
-
-/*
-### Font
-
-- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
-- Weights: 500, 700, 900  */
-
 :root{
+  /* Colours */
   --title: hsl(223, 47%, 23%);
   --text: hsl(224, 23%, 55%);
   --background: hsl(225, 100%, 94%);
   --button: hsl(245, 75%, 52%);
   --card-color: hsl(225, 100%, 98%);
+  /* Fonts */
+  --big-font:900 2rem 'Red Hat Display', sans-serif;
+  --mid-font:700 1rem 'Red Hat Display', sans-serif;
+  --small-font: 500 1rem 'Red Hat Display', sans-serif;
 }
 
 body{
   background-color: var(--background);
+  color: var(--text);
+  font: var(--small-font);
+  padding: 1rem;
 }
 
 main{
   background: var(--card-color);
+  border-radius: 1rem;
 }
 
+h1{
+  color: var(--title);
+  font:var(--big-font);
+}
+h2{
+  color: var(--title);
+  font: var(--mid-font);
+}
 
+.plan{
+  background: var(--background);
+  display: flex;
+  margin: 2rem;
+}
+
+/* Button Styling */
+button{
+  border-radius: 1rem;
+  font: var(--mid-font);
+}
+.pay{
+  background: var(--button);
+  color: var(--card-color);
+}
+.change{
+  background: var(--background);
+  color: var(--button);
+}
+.cancel{
+  background: var(--background);
+  color: var
+
+}
 footer{
   margin-top: 10rem;
 }
