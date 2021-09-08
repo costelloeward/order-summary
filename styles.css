@@ -4,7 +4,8 @@
   --text: hsl(224, 23%, 55%);
   --background: hsl(225, 100%, 94%);
   --button: hsl(245, 75%, 52%);
-  --card-color: hsl(225, 100%, 98%);
+  --note-color: hsl(225, 100%, 98%);
+  --card-color: white;
   /* Fonts */
   --big-font:900 2rem 'Red Hat Display', sans-serif;
   --mid-font:700 1rem 'Red Hat Display', sans-serif;
@@ -36,14 +37,16 @@ h2{
 }
 
 .plan{
-  background: var(--background);
+  background: var(--note-color);
   display: flex;
   margin: 2rem;
 }
 
 /* Button Styling */
 button{
+  border: none;
   border-radius: 1rem;
+  display: block;
   font: var(--mid-font);
 }
 .pay{
