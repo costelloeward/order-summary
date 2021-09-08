@@ -16,11 +16,14 @@ body{
   color: var(--text);
   font: var(--small-font);
   padding: 1rem;
+  text-align: center;
 }
 
 main{
   background: var(--card-color);
   border-radius: 1rem;
+  margin: auto;
+  max-width: 30rem;
 }
 
 h1{
@@ -58,4 +61,9 @@ button{
 }
 footer{
   margin-top: 10rem;
+}
+
+/* Styling for larger sizes */
+main {
+    max-width: 70rem;
 }
