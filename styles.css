@@ -1,4 +1,4 @@
-:root{
+:root {
   /* Colours */
   --title: hsl(223, 47%, 23%);
   --text: hsl(224, 23%, 55%);
@@ -7,12 +7,12 @@
   --note-color: hsl(225, 100%, 98%);
   --card-color: white;
   /* Fonts */
-  --big-font:900 2rem 'Red Hat Display', sans-serif;
-  --mid-font:700 1rem 'Red Hat Display', sans-serif;
+  --big-font: 900 2rem 'Red Hat Display', sans-serif;
+  --mid-font: 700 1rem 'Red Hat Display', sans-serif;
   --small-font: 500 1rem 'Red Hat Display', sans-serif;
 }
 
-body{
+body {
   background-color: var(--background);
   color: var(--text);
   font: var(--small-font);
@@ -20,53 +20,64 @@ body{
   text-align: center;
 }
 
-main{
+main {
   background: var(--card-color);
   border-radius: 1rem;
   margin: auto;
   max-width: 30rem;
 }
 
-h1{
+h1 {
   color: var(--title);
-  font:var(--big-font);
+  font: var(--big-font);
 }
-h2{
+
+h2 {
   color: var(--title);
   font: var(--mid-font);
 }
 
-.plan{
+.plan {
   background: var(--note-color);
+  border-radius: 1rem;
   display: flex;
   margin: 2rem;
 }
 
+img {
+  height: 4rem;
+  margin: 1rem;
+}
+
 /* Button Styling */
-button{
+button {
   border: none;
   border-radius: 1rem;
   display: block;
   font: var(--mid-font);
+  margin: auto;
 }
-.pay{
+
+.pay {
   background: var(--button);
   color: var(--card-color);
 }
-.change{
+
+.change {
   background: var(--background);
   color: var(--button);
 }
-.cancel{
+
+.cancel {
   background: var(--background);
   color: var
-
 }
-footer{
+
+footer {
   margin-top: 10rem;
 }
 
 /* Styling for larger sizes */
 main {
-    max-width: 70rem;
+  max-width: 70rem;
 }
