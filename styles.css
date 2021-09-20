@@ -29,8 +29,8 @@ height:15rem;
   background: var(--card-color);
   border-radius: 1rem;
   margin: auto;
-  max-width: 30rem;
-  padding-bottom: 1rem;
+  max-width: 25rem;
+  padding: 1rem;
 }
 
 h1 {
@@ -47,7 +47,7 @@ h2 {
   background: var(--note-color);
   border-radius: 1rem;
   display: flex;
-  margin: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .note {
@@ -57,30 +57,27 @@ h2 {
 
 /* Button Styling */
 button {
+  background: none;
   border: none;
   border-radius: 1rem;
   display: block;
   font: var(--mid-font);
   margin: auto;
+  padding: 1rem;
 }
 
 .pay {
   background: var(--button);
   color: var(--card-color);
   margin-bottom: 1rem;
-  padding: 1rem 5rem;
 }
 
 .change {
-  background: var(--background);
   color: var(--button);
 }
 
 .cancel {
-  background: var(--background);
   color: var(--title);
-
-  padding: 1rem 5rem;
 }
 
 footer {
@@ -88,6 +85,4 @@ footer {
 }
 
 /* Styling for larger sizes */
-main {
-  max-width: 70rem;
-}
+/* Different background */
