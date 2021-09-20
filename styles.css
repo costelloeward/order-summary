@@ -19,12 +19,14 @@ body {
   padding: 1rem;
   text-align: center;
 }
-header{
+.hero{
 background: url(images/illustration-hero.svg) var(--card-color) no-repeat center top;
+height:15rem;
 }
 
 .card {
-  background: var(--card-color);    
+  /* background: url(images/illustration-hero.svg) var(--card-color) no-repeat center top; */
+  background: var(--card-color);
   border-radius: 1rem;
   margin: auto;
   max-width: 30rem;
