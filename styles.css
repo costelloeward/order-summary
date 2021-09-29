@@ -25,7 +25,6 @@ body {
   border-radius: 1rem;
   margin: auto;
   max-width: 25rem;
-  padding: 1rem;
 }
 
 .hero {
@@ -33,7 +32,9 @@ body {
     object-fit: cover;
     width: 100%;
 }
-
+section{
+  margin: 1rem;
+}
 h1 {
   color: var(--title);
   font: var(--big-font);
