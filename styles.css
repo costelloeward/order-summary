@@ -24,7 +24,9 @@ body {
   background: var(--card-color);
   border-radius: 1rem;
   margin: auto;
+  margin-top: 4rem;
   max-width: 25rem;
+  padding-bottom: 1rem;
 }
 
 .hero {
@@ -68,6 +70,11 @@ button {
   padding: 1rem;
 }
 
+button:focus {
+  background-color: var(--title);
+  color: var(--note-color);
+}
+
 .pay {
   background: var(--button);
   color: var(--card-color);
@@ -83,8 +90,17 @@ button {
 }
 
 footer {
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
-/* Styling for larger sizes */
-/* Different background */
+@media (min-width: 64rem)
+/* different background */
+{
+  button {
+      cursor: pointer;
+  }
+  button:hover {
+   background-color: var(--title);
+   color: var(--note-color);
+ }
+}
