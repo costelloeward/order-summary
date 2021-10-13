@@ -79,6 +79,7 @@ button:focus {
   background: var(--button);
   color: var(--card-color);
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 .change {
