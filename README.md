@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/costelloeward/order-summary](https://github.com/costelloeward/order-summary)
+- Live Site URL: [https://costelloeward.github.io/order-summary/](https://costelloeward.github.io/order-summary/)
 
 ## My process
 
@@ -44,29 +44,10 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
+Decided to make the cancel and change buttons more prominent to avoid the design looking like a dark pattern. 
+Did not include underlining on change, as it is a button rather than a hyperlink. Room for debate on that one!
+Left off the shadow from the payment button to make the design cleaner.
+Including focus as well as hover for active states, need to read more about this.
 
 
 ## Author
